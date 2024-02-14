@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Abhishek</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/darkLogo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style type="text/css">
+         .welcome-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 80%;
+            z-index: 999;
+            display: none;
+        }
+
+        h1 {
+            color: #00ff11;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .head {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .close-button {
+            background-color: #072a42;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+  </style>
+
+  <!-- =======================================================
+  * Template Name: TheEvent
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <div class="welcome-container" id="welcomeMessage">
+    <header class="head">
+      <img src="assets/img/speakers/profileNew.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;">
+    <h1>Welcome to Abhi Creation</h1>
+    <p>Your gateway to innovative web and creative design. Let's craft a vibrant digital future together. <br>Explore our services <a href="#services">here</a>.</p>
+    <button class="close-button" onclick="closeWelcomeMessage()">Close</button>
+    </header>
+  </div>
+
+<script>
+    function closeWelcomeMessage() {
+        document.getElementById('welcomeMessage').style.display = 'none';
+    }
+
+    // You can choose when to display the message, for example, on page load.
+    document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('welcomeMessage').style.display = 'block';
+    });
+</script>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+        <a href="index.html" class="scrollto"><img src="assets/img/lightLogo.png" alt="" title="" style="border-radius: 50%;"></a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#schedule">Qualification</a></li>
+          <li><a class="nav-link scrollto" href="#venue">Search</a></li>
+          <li><a class="nav-link scrollto" href="#hotels">Services</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <a class="buy-tickets scrollto" href="#gallery">Project</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+      <h1 class="mb-4 pb-0">Abhishek Pramuditha<br></h1>
+      <p class="mb-4 pb-0"><span>Software Developer</span></p>
+      <a href="assets/img/speakers/Company Update (1).mp4" class="glightbox play-btn mb-4"></a>
+      <a href="#about" class="about-btn scrollto">About me</a>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container position-relative" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/speakers/profileNew.jpg" alt="" style="width: 250px; height: 250px; border-radius:30%;">
+            <h2>About me</h2>
+            <p>I'm a versatile software developer excelling in web, mobile,
+               and desktop applications, with strong database management skills.</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Where</h3>
+            <p>No 19 Paragahakumbura Dadalla Ginthota</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>When</h3>
+            <p>Sunday to Monday<br>Full Time</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Speakers Section ======= -->
+    <section id="speakers">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <p>Here are some of my projects</p>
+        </div>
+
+        <div class="row">
+         
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <a href="protfolio-details1.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i><img src="assets/img/speakers/web.png" alt="Speaker 1" class="img-fluid"></a>
+              <div class="details">
+                <h3><a href="protfolio-details.html">Web Application</a></h3>
+                <p>Development</p>
+                <div class="social">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+     
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <a href="protfolio-details2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i><img src="assets/img/speakers/mobile.jpg" alt="Speaker 2" class="img-fluid"></a>
+              <div class="details">
+                <h3><a href="protfolio-details.html">Mobile Application</a></h3>
+                <p>Development</p>
+                <div class="social">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <a href="protfolio-details3.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i><img src="assets/img/speakers/desktop.png" alt="Speaker 3" class="img-fluid"></a>
+              <div class="details">
+                <h3><a href="protfolio-details.html">Desktop Application</a></h3>
+                <p>Development</p>
+                <div class="social">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <a href="protfolio-details4.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i><img src="assets/img/speakers/game1.png" alt="Speaker 3" class="img-fluid"></a>
+              <div class="details">
+                <h3><a href="protfolio-details.html">Game</a></h3>
+                <p>Design</p>
+                <div class="social">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <a href="protfolio-details5.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i><img src="assets/img/speakers/photoshop.jpg" alt="Speaker 3" class="img-fluid"></a>
+              <div class="details">
+                <h3><a href="protfolio-details.html">Photoshop</a></h3>
+                <p>Design</p>
+                <div class="social">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <a href="protfolio-details6.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i><img src="assets/img/speakers/art.jpg" alt="Speaker 3" class="img-fluid"></a>
+              <div class="details">
+                <h3><a href="speaker-details.html">Art</a></h3>
+                <p>Design</p>
+                <div class="social">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Speakers Section -->
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Skill & Technologies</h2>
+          <p>Here is my education,skill & Technologies</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Page 01</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Page 02</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Page 03</a>
+          </li>
+        </ul>
+
+        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
+          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Schdule Day 1 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Education Qualification</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/degree.png" alt="Brenden Legros" style="width: 30px; height:30px;">
+                </div>
+                <h4>Software Developer NVQ Level 4 <span>2023 - Present</span></h4>
+                <p>Successfully Completed Software Developer NVQ Level 4 Course-(1 Year)</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/degree.png" alt="Hubert Hirthe" style="width: 30px; height:30px;">
+                </div>
+                <h4>G.C.E A/L Examination <span>2023</span></h4>
+                <p>Passed G.C.E Advance Leve Engineering Technolgy Stream</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/degree.png" alt="Cole Emmerich" style="width: 30px; height: 30px;">
+                </div>
+                <h4>G.C.E O/L Examination <span>2019</span></h4>
+                <p>Passed G.C.E Ordinary Level</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Other Qualification</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/ot.png" alt="Jack Christiansen" style="width: 20px; height: 20px;">
+                </div>
+                <h4>Adventure Based Training Programme<span>2020</span></h4>
+                <p>Successfully Completed Adventure Based Training Programme</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/ot.png" alt="Jack Christiansen" style="width: 20px; height: 20px;">
+                </div>
+                <h4>Personality Development and Leadership Training <span>2020</span></h4>
+                <p>Successfully Completed Personality Development and Leadership Training</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule Day 1 -->
+
+          <!-- Schdule Day 2 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Programing Skill</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/html.png" alt="Brenden Legros" style="width: 30px; height: 30px;">
+                </div>
+                <h4>html</h4>
+                <p>Do You Want to <a href="https://www.w3schools.com/">Learn more</a> this Language?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/css.png" alt="Hubert Hirthe" style="width: 30px; height: 30px;">
+                </div>
+                <h4>css</h4>
+                <p>Do You Want to <a href="https://www.w3schools.com/">Learn more</a> this Language?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/php.png" alt="Cole Emmerich" style="width: 30px; height: 30px;">
+                </div>
+                <h4>php</h4>
+                <p>Do You Want to <a href="https://www.w3schools.com/">Learn more</a> this Language?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/js.png" alt="Jack Christiansen" style="width: 30px; height: 30px;">
+                </div>
+                <h4>Java Script</h4>
+                <p>Do You Want to <a href="https://www.w3schools.com/">Learn more</a> this Language?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/java.png" alt="Alejandrin Littel" style="width: 30px; height: 30px;">
+                </div>
+                <h4>Java</h4>
+                <p>Do You Want to <a href="https://www.w3schools.com/">Learn more</a> this Language?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/python.png" alt="Willow Trantow" style="width: 30px; height: 30px;">
+                </div>
+                <h4>Python</h4>
+                <p>Do You Want to <a href="https://www.w3schools.com/">Learn more</a> this Language?</p>
+              </div>
+            </div>
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/sql.png" alt="Willow Trantow" style="width: 30px; height: 30px;">
+                </div>
+                <h4>SQL</h4>
+                <p>Do You Want to <a href="https://www.w3schools.com/">Learn more</a> this Language?</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule Day 2 -->
+
+          <!-- Schdule Day 3 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Technologies</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/react.png" alt="Hubert Hirthe" style="width: 30px; height: 30px;">
+                </div>
+                <h4>react</h4>
+                <p>Do You Want to <a href="https://react.dev/">Learn more</a> this Technologie?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/boostrap.png" alt="Cole Emmerich" style="width: 30px; height: 30px;">
+                </div>
+                <h4>Boostrap</h4>
+                <p>Do You Want to <a href="https://www.w3schools.com/">Learn more</a> this Technologie?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/figma.png" alt="Brenden Legros" style="width: 30px; height: 30px;">
+                </div>
+                <h4>Figma</h4>
+                <p>Do You Want to <a href="https://www.figma.com/">Learn more</a> this Technologie?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/github.png" alt="Jack Christiansen" style="width: 30px; height: 30px;">
+                </div>
+                <h4>Github</h4>
+                <p>Do You Want to <a href="https://github.com/">Learn more</a> this Technologie?</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/word.png" alt="Alejandrin Littel" style="width: 30px; height: 30px;">
+                </div>
+                <h4>Word Press</h4>
+                <p>Do You Want to <a href="https://wordpress.org/">Learn more</a> this Technologie?</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule Day 2 -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Schedule Section -->
+
+    <!-- ======= Venue Section ======= -->
+    <section id="venue">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Location</h2>
+          <p>Find my location</p>
+        </div>
+
+        <div class="row g-0">
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8 position-relative">
+                <h3>Find Map</h3>
+                <p><a href="https://maps.app.goo.gl/Cskmk4dWCmNth8t66">Click Here</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8 position-relative">
+                <h3>ABHI Creation Center <br> Sri Lanka</h3>
+                <p>NO 19 ParagahaKumbura Dadalla Ginthota, Sri Lanka. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Venue Section -->
+
+    <!-- ======= Hotels Section ======= -->
+    <section id="hotels" class="section-with-bg">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Services</h2>
+          <p>My Services</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="assets/img/speakers/web.png" alt="Hotel 1" class="img-fluid">
+              </div>
+              <h3><a href="#">Web Design(UI/UX)</a></h3>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>ABHI Creation</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="assets/img/speakers/mobile.jpg" alt="Hotel 2" class="img-fluid">
+              </div>
+              <h3><a href="#">Mobile App Design(UI/UX)</a></h3>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill-half-full"></i>
+              </div>
+              <p>ABHI Creation</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="assets/img/speakers/desktop.png" alt="Hotel 3" class="img-fluid">
+              </div>
+              <h3><a href="#">Desktop Application Design(UI/UX)</a></h3>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>ABHI Creation</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Hotels Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Gallery</h2>
+          <p>Check our gallery from the recent events</p>
+        </div>
+      </div>
+
+      <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><a href="assets/img/gallery/p2.jpg" class="gallery-lightbox" title="VTA - System"><img src="assets/img/gallery/p2.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/g1.jpg" class="gallery-lightbox"><img src="assets/img/gallery/g1.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/cd.jpg" class="gallery-lightbox"><img src="assets/img/gallery/cd.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/p4.jpg" class="gallery-lightbox"><img src="assets/img/gallery/p4.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/d1.jpg" class="gallery-lightbox"><img src="assets/img/gallery/d1.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/d2.jpg" class="gallery-lightbox"><img src="assets/img/gallery/d2.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/d3.jpg" class="gallery-lightbox"><img src="assets/img/gallery/d3.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/d4.jpg" class="gallery-lightbox"><img src="assets/img/gallery/d4.jpg" class="img-fluid" alt=""></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Subscribe Section ======= -->
+    <section id="subscribe">
+      <div class="container" data-aos="zoom-in">
+        <div class="section-header">
+          <h2>ABHI Creation</h2>
+          <p>A New way of thinking leads to a new beging</p>
+        </div>
+
+        <!-- <form method="POST" action="#">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10 d-flex">
+              <input type="text" class="form-control" placeholder="Enter your Email">
+              <button type="submit" class="ms-2">Subscribe</button>
+            </div>
+          </div>
+        </form> -->
+
+      </div>
+    </section><!-- End Subscribe Section -->
+
+
+    <section id="venue">
+
+      <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-3">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/1.png" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/1.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/2.png" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/2.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/3.png" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/3.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/4.png" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/4.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="section-bg">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>ABHI Creation Center Sri Lanka</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <address>No 19 ParagahaKumbura Dadalla Ginthota Sri Lanka</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="bi bi-phone"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+94 77 0116523</a></p>
+              <p><a href="tel:+155895548855">+94 72 4412431</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">contact.liyanageabhishek@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- <div class="form">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div> -->
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="assets/img/lightLogo.png" alt="TheEvenet" style="width:50px;height: 50px; border-radius: 50%;">
+            <p>Abhi Creation Company, a visionary in web and creative design, is poised to redefine the digital landscape. Pioneering innovation, we craft compelling websites and captivating designs, shaping a vibrant future.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              No 19 <br>
+              ParagahaKumbura<br>
+              Dadalla,Ginthota <br>
+              <strong>Phone:</strong>+94 77 0116523<br>
+              <strong>Phone:</strong>+94 72 4412431<br>
+              
+              <strong>Email:</strong>contact.liyanageabhishek@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> -->
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+  
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
